@@ -26,8 +26,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
       - name: Install pandoc
-        # run: sudo apt install pandoc
-        run: conda install conda-forge::pandoc
+        run: sudo apt install pandoc
       - name: pandoc verbose
         run: |
           pandoc --version
