@@ -25,6 +25,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+      - name: Install pandoc
+        run: sudo apt install pandoc
       - name: Run Bash Script to Generate HTML
         run: |
           chmod +x ./build.sh
