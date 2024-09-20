@@ -23,7 +23,7 @@ done
 # add footer's last updated tag
 rm -f ./includes/footer.html
 cat ./includes/footer_template.html > ./includes/footer.html
-echo "Last updated: $(date) </footer>" >> ./includes/footer.html
+echo "Last updated: $(TZ=America/Chicago date) </footer>" >> ./includes/footer.html
 
 # convert markdowns to html
 find ${SOURCE} -type f -name "*.md" | while read -r file; do
