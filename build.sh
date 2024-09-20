@@ -13,7 +13,7 @@ BLOG_TARGET="./pages/blog.md"
 rm -f $BLOG_TARGET
 cat $BLOG_TEMPLATE > $BLOG_TARGET
 
-find ${BLOG_DIR} -type f -name "*.md" | sort | while read -r file; do
+find ${BLOG_DIR} -type f -name "*.md" | sort -r | while read -r file; do
     # echo "${file#${BLOG_DIR}}"
     # echo "${file%.md}"
     tmp="- [$(basename "${file%.md}")](/blog_posts/$(basename "${file%.md}").html)"
