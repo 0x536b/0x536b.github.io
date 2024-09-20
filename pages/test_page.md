@@ -130,5 +130,8 @@ done
 | February | $80     |
 | March    | $420    |
 
+# In-line scripts from github
+<script src="https://gist.github.com/0x536b/26792a1a3905e11515e997982420eb07.js"></script>
+
 # References
 <div id="refs"></div>
