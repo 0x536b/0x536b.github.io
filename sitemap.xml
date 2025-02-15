@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>0x536b.com/notes/</loc>
+    <loc>/notes/</loc>
     <lastmod>2025-02-15T12:32:10-06:00</lastmod>
   </url><url>
-    <loc>0x536b.com/</loc>
+    <loc>/</loc>
     <lastmod>2025-02-15T12:32:10-06:00</lastmod>
   </url><url>
-    <loc>0x536b.com/notes/gs/</loc>
+    <loc>/notes/gs/</loc>
     <lastmod>2025-02-06T14:27:58-06:00</lastmod>
   </url><url>
-    <loc>0x536b.com/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>0x536b.com/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>
